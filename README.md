@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with 2048
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is replica of a very famouse game 2048 which was originally developed on mobile. This game implements the logic react and redux. Material UI is used for design component.
 
 ## Available Scripts
 
