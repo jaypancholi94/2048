@@ -6,6 +6,8 @@ This project is replica of a very famouse game 2048 which was originally develop
 
 In the project directory, you can run:
 
+### `npm install`
+
 ### `npm start`
 
 Runs the app in the development mode.\
