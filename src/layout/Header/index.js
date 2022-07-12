@@ -31,7 +31,11 @@ const Header = () => {
     const [gridSize, setGridSize] = useState(4);
 
     const toggleDrawer = (open) => (event) => {
-        if (event && event.type === "keydown" && (event.key === "Tab" || event.key === "Shift")) {
+        if (
+            event &&
+            event.type === "keydown" &&
+            (event.key === "Tab" || event.key === "Shift")
+        ) {
             return;
         }
 
@@ -62,7 +66,10 @@ const Header = () => {
                                 max={8}
                                 onChange={(event) => {
                                     setButtonVisible(
-                                        event.target.value !== gameSettings?.size ? true : false
+                                        event.target.value !==
+                                            gameSettings?.size
+                                            ? true
+                                            : false
                                     );
 
                                     setGridSize(event.target.value);
@@ -75,7 +82,10 @@ const Header = () => {
                             <Button
                                 variant="contained"
                                 onClick={() => {
-                                    dispatch({ type: CHANE_GRID_SIZE, size: gridSize });
+                                    dispatch({
+                                        type: CHANE_GRID_SIZE,
+                                        size: gridSize,
+                                    });
                                     setButtonVisible(false);
                                 }}
                             >
@@ -94,7 +104,11 @@ const Header = () => {
                 <AppBar position="static">
                     <Toolbar>
                         <SportsEsportsIcon fontSize="large" sx={{ mr: 2 }} />
-                        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+                        <Typography
+                            variant="h6"
+                            component="div"
+                            sx={{ flexGrow: 1 }}
+                        >
                             2048
                         </Typography>
                         <IconButton

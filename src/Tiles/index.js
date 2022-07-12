@@ -18,7 +18,9 @@ const Tiles = () => {
                 return (
                     <Stack direction="row" spacing={1} key={rIndex}>
                         {row.map((cell, cIndex) => {
-                            return <Tile key={`${rIndex}${cIndex}`} value={cell} />;
+                            return (
+                                <Tile key={`${rIndex}${cIndex}`} value={cell} />
+                            );
                         })}
                     </Stack>
                 );
@@ -30,7 +32,11 @@ const Tiles = () => {
     }, [gameSettings]);
 
     return (
-        <Grid container direction="column" sx={{ minHeight: "calc( 100vh - 144px)" }}>
+        <Grid
+            container
+            direction="column"
+            sx={{ minHeight: "calc( 100vh - 144px)" }}
+        >
             <Box
                 sx={{
                     display: "flex",

@@ -67,5 +67,79 @@ export default function themePalette() {
             default: "#fafafa",
             // testCase: "",
         },
+        tiles: {
+            0: {
+                bgcolor: "#f0f3f5",
+                fontSize: 40,
+            },
+            2: {
+                bgcolor: "#b4bfcb",
+                fontSize: 40,
+            },
+            4: {
+                bgcolor: "#a5b2c0",
+                fontSize: 40,
+            },
+            8: {
+                bgcolor: "#96a5b6",
+                fontSize: 40,
+            },
+            16: {
+                bgcolor: "#8798ab",
+                fontSize: 40,
+            },
+            32: {
+                bgcolor: "#788ca1",
+                fontSize: 40,
+            },
+            64: {
+                bgcolor: "#697f96",
+                fontSize: 40,
+            },
+            128: {
+                bgcolor: "#5e7287",
+                fontSize: 32,
+            },
+            256: {
+                bgcolor: "#546578",
+                color: "#fff",
+                fontSize: 32,
+            },
+            512: {
+                bgcolor: "#495969",
+                color: "#fff",
+                fontSize: 32,
+            },
+            1024: {
+                bgcolor: "#3f4c5a",
+                color: "#fff",
+                fontSize: 24,
+            },
+            2048: {
+                bgcolor: "#F44336",
+                color: "#fff",
+                fontSize: 24,
+            },
+            4096: {
+                bgcolor: "#343f4b",
+                color: "#fff",
+                fontSize: 24,
+            },
+            8192: {
+                bgcolor: "#343f4b",
+                color: "#fff",
+                fontSize: 24,
+            },
+            16384: {
+                bgcolor: "#343f4b",
+                color: "#fff",
+                fontSize: 24,
+            },
+            32768: {
+                bgcolor: "#343f4b",
+                color: "#fff",
+                fontSize: 24,
+            },
+        },
     };
 }
