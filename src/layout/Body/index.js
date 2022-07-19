@@ -2,11 +2,9 @@
 import { useTheme } from "@mui/material/styles";
 
 // Project imports
-import Tiles from "view/Tiles";
+import Tiles from "Tiles";
 
 const MainBody = () => {
-    const theme = useTheme(useTheme);
-    // console.log(theme);
     return (
         <>
             <Tiles />
